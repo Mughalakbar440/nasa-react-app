@@ -5,7 +5,6 @@ import Footer from "./components/Footer";
 
 function App() {
   const [data, showData] = useState(null);
-  const [loading, setloading] = useState(false);
   const [showModal, setShowModel] = useState(false);
   useEffect(() => {
     async function fetchAPIDATA() {
